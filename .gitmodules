@@ -1,0 +1,3 @@
+[submodule "themes/mank"]
+	path = themes/mank
+	url = https://github.com/themefisher/meghna-hugo.git

@@ -1,0 +1,55 @@
+baseURL = "http:/"
+languageCode = "en-us"
+title = "My First Site"
+theme ="mank"
+# css plugins
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+URL = "plugins/animate-css/animate.css"
+[[params.plugins.css]]
+URL = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+
+# js plugins
+[[params.plugins.js]]
+URL = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+URL = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+URL = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+URL = "plugins/wow/wow.min.js"
+
+[params]
+
+home="Home"
+homeLayoutToggle=true
+description="This is the first site"
+
+[params.preloader]
+enable = true
+[params.footer]
+#address
+[[params.footer.addresses]]
+address="Yangon"
+ 
+  [menu]
+  [[menu.main]]
+  name = "All menu"
+  URL = "posts"
+  weight = 1
+
+  [[menue.main]]
+  name="About"
+  url="about"
+  [[menu.main]]
+  name="contact"
+  url="contact"
